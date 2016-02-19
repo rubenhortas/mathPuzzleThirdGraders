@@ -31,7 +31,6 @@ void solvePuzzle(float * array, int arrayLength) {
 	result = array[0] + ((13 * array[1]) / array[2]) + array[3] + (12 * array[4]) - array[5] - 11 + ((array[6] * array[7]) / array[8]) -10;
 
 	if(result == 66) {
-		printf("Result: %g\n", result);
 		printArray(array, arrayLength);
 	}
 }
